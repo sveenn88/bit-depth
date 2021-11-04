@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="bit-depth.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Bit Depth</title>
+</head>
+<body>
+  <div class="wraper">
+    <div class="content">
+      <form id="bit-form">
+        <label for="bit-depth">Разрядность</label>
+        <input type="number" name="bit-depth" id="bit-depth" min="2" max="36" value="36">
+        <label for="number">Число</label>
+        <input type="number" name="number" id="number" value="1296">
+        <input type="submit" id="submit" value="выполнить">
+      </form>
+      <div class="result" id="result"></div>
+    </div>
+  </div>
+  
+</body>
+</html>
